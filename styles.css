@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0e6f6;
+    font-family: 'Arial', sans-serif;
+}
+
+.mensaje {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: scale(0.9);
+    animation: aparecer 2s forwards;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+h1 {
+    color: #d63384;
+    animation: colorCambio 3s infinite alternate;
+}
+
+@keyframes colorCambio {
+    from {
+        color: #d63384;
+    }
+    to {
+        color: #ff69b4;
+    }
+}
+
+p {
+    color: #555;
+}
