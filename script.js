@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const mensaje = "🌸 Hola, hermosa 🌸\n\nQuería hacer algo especial para ti, y pensé que este pequeño detalle sería una linda manera de recordarte lo increíble que eres. 💫\n\nNo sé qué pienses, pero solo quería que supieras lo mucho que me importas. Eres una persona única y maravillosa, y espero que nunca lo olvides. 💖";
+    const mensaje = "🌸 En el vasto universo, donde el tiempo no se detiene, tú eres la estrella que brilla con luz propia, sin que nada te frene. ✨\n\nHe querido crear algo especial para ti, un pequeño gesto que ilumine tu día y te haga sonreír. 💖\n\nAunque las palabras no siempre alcanzan para expresar, quiero que sepas cuánto significas para mí. No eres solo un pensamiento pasajero, sino un capítulo esencial en mi historia sin fin. 💞";
     const elemento = document.querySelector('.mensaje p');
     let index = 0;
 
